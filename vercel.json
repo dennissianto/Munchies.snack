@@ -14,14 +14,13 @@
       "use": "@vercel/static"
     },
     {
-      "src": "main.js",
+      "src": "",
       "use": "@vercel/static"
     }
   ],
   "routes": [
     "src": "/(.*)",
-      "dest": "Munchiessnack.html",
-      "dest": "Products.html"
+      "dest": "/",
     }
   ]
 }
