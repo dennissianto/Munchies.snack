@@ -1,11 +1,23 @@
 {
-   "version": 2,
+  "version": 2,
   "builds": [
-    { "src": "*Munchiessnack.html", "use": "@vercel/static" },
-    { "src": "styles/style*", "use": "@vercel/static" },
-     { "src": "styles/styles*", "use": "@vercel/static" },
-    { "src": "main.js", "use": "@vercel/static" }
+    {
+      "src": "Munchiessnack.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "styles/*",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "scripts/*",
+      "use": "@vercel/static"
+    }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "/$1" }
+    {
+      "src": "/(.*)",
+      "dest": "Munchiessnack.html"
+    }
+  ]
 }
