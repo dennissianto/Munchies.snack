@@ -17,7 +17,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/Munchies.html"
+      "dest": "/"
     }
   ]
 }
