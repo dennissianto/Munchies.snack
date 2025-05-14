@@ -6,26 +6,18 @@
       "use": "@vercel/static"
     },
     {
-      "src": "Products.html",
-      "use": "@vercel/static"
-    },
-     {
-      "src": "AboutUs.html",
+      "src": "styles/*",
       "use": "@vercel/static"
     },
     {
-      "src": "style.css",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "styles.css",
+      "src": "scripts/*",
       "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/Munchiessnack.html"
+      "dest": "/Munchies.html"
     }
   ]
 }
