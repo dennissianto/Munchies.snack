@@ -16,8 +16,7 @@
   ],
   "routes": [
     {
-      "src": "/(.*)",
-      "dest": "Munchiessnack.html"
+     { "src": "/(.*)", "dest": "/$1" }
     }
   ]
 }
